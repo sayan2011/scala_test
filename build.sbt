@@ -2,10 +2,8 @@ name := "ScalaPractice"
 
 version := "0.1"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.11.10"
 
-libraryDependencies ++= Seq(
-  "junit" % "junit" % "4.8.1" % "test"
-)
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "3.1.1" % "test"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
+

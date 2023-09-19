@@ -14,12 +14,12 @@ object Partially_Applied_Function {
 
     // sub() is partially applied func
     var sub= (a:Int,b:Int,c:Int)=> a-b-c
-    var partial_func= sub(10,5,_)
-    var final_val = partial_func(7)
-    println(final_val)
+    //var partial_func= sub(10,5,_)
+    //var final_val = partial_func(7)
+    //println(final_val)
 
     var date= new Date;
-    var custom_log=log(date , _);
-    var create_log =custom_log("Error")
+    //var custom_log=log(date , _);
+    //var create_log =custom_log("Error")
   }
 }
