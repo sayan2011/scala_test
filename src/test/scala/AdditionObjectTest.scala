@@ -10,6 +10,7 @@ class AdditionObjectTest extends AnyFlatSpec {
   it should "match" in {
     assert(actual==expected)
     //assert(14==AdditionObject.add(9,8))
+    print(1234)
   }
 
 
