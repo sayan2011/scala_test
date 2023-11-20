@@ -5,7 +5,9 @@ package programming_knowledge_youtube
 object Closure {
 
   var outsideVariable1=100;
+
   val outsideVariable2=500;
+
 
   var add1=(x:Int)=> {
     outsideVariable1=x+outsideVariable1

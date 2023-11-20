@@ -5,6 +5,7 @@ object Anonymous_Function {
   object Math {
     //with default parameter
     def add(x:Int=10, y:Int=67): Int = x+y
+    
     //operators can be used as function name
     def +(a:Int,b:Int):Int =a+b;
   }
